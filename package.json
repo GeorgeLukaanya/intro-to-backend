@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeLukaanya/intro-to-backend.git"
+  },
+  "author": "George Lukaanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeLukaanya/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/GeorgeLukaanya/intro-to-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
